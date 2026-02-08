@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Ovenii ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 320px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px 22px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .yes {
+      background: #fff;
+      color: #ff4d6d;
+    }
+
+    .no {
+      background: #ff4d6d;
+      color: #fff;
+      position: relative;
+    }
+
+    #response {
+      margin-top: 15px;
+      font-size: 1rem;
+      min-height: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Ovenii 💖</h1>
+    <p>Will you be my Valentine?</p>
+
+    <button class="yes" onclick="yesClick()">Yes ❤️</button>
+    <button class="no" id="noBtn" onclick="moveNo()">No 🙄</button>
+
+    <div id="response"></div>
+  </div>
+
+  <script>
+    const messages = [
+      "Are you sure? 😏",
+      "Nice try 😂",
+      "Wrong button 😌",
+      "Think again 🙃",
+      "You can’t escape 💘"
+    ];
+
+    function moveNo() {
+      const btn = document.getElementById("noBtn");
+      btn.style.left = Math.random() * 120 - 60 + "px";
+      btn.style.top = Math.random() * 80 - 40 + "px";
+      document.getElementById("response").innerText =
+        messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    function yesClick() {
+      document.getElementById("response").innerText =
+        "YAYYY!! 💖 Happy Valentine’s Day, Ovenii 😍💘";
+    }
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Ovenii ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 320px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px 22px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .yes {
+      background: #fff;
+      color: #ff4d6d;
+    }
+
+    .no {
+      background: #ff4d6d;
+      color: #fff;
+      position: relative;
+    }
+
+    #response {
+      margin-top: 15px;
+      font-size: 1rem;
+      min-height: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Ovenii 💖</h1>
+    <p>Will you be my Valentine?</p>
+
+    <button class="yes" onclick="yesClick()">Yes ❤️</button>
+    <button class="no" id="noBtn" onclick="moveNo()">No 🙄</button>
+
+    <div id="response"></div>
+  </div>
+
+  <script>
+    const messages = [
+      "Are you sure? 😏",
+      "Nice try 😂",
+      "Wrong button 😌",
+      "Think again 🙃",
+      "You can’t escape 💘"
+    ];
+
+    function moveNo() {
+      const btn = document.getElementById("noBtn");
+      btn.style.left = Math.random() * 120 - 60 + "px";
+      btn.style.top = Math.random() * 80 - 40 + "px";
+      document.getElementById("response").innerText =
+        messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    function yesClick() {
+      document.getElementById("response").innerText =
+        "YAYYY!! 💖 Happy Valentine’s Day, Ovenii 😍💘";
+    }
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Ovenii ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 320px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 12px 22px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .yes {
+      background: #fff;
+      color: #ff4d6d;
+    }
+
+    .no {
+      background: #ff4d6d;
+      color: #fff;
+      position: relative;
+    }
+
+    #response {
+      margin-top: 15px;
+      font-size: 1rem;
+      min-height: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Ovenii 💖</h1>
+    <p>Will you be my Valentine?</p>
+
+    <button class="yes" onclick="yesClick()">Yes ❤️</button>
+    <button class="no" id="noBtn" onclick="moveNo()">No 🙄</button>
+
+    <div id="response"></div>
+  </div>
+
+  <script>
+    const messages = [
+      "Are you sure? 😏",
+      "Nice try 😂",
+      "Wrong button 😌",
+      "Think again 🙃",
+      "You can’t escape 💘"
+    ];
+
+    function moveNo() {
+      const btn = document.getElementById("noBtn");
+      btn.style.left = Math.random() * 120 - 60 + "px";
+      btn.style.top = Math.random() * 80 - 40 + "px";
+      document.getElementById("response").innerText =
+        messages[Math.floor(Math.random() * messages.length)];
+    }
+
+    function yesClick() {
+      document.getElementById("response").innerText =
+        "YAYYY!! 💖 Happy Valentine’s Day, Ovenii 😍💘";
+    }
+  </script>
+
+</body>
+</html>
